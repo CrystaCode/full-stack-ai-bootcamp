@@ -9,11 +9,11 @@ The curriculum covers a range of topics, including:
 - Learning with AI
 - Development using AI (GitHub Copilot, Claude, Codex, etc.)
 - C# and .NET
-  - EF Core
-  - ASP.NET Core
-  - Blazor
-  - AI, MEAI, MAF
-- Frontend Development (HTML, CSS, TypeScript)
+  - [EF Core](/design/flows/flow-dotnet-ef.md)
+  - [ASP.NET Core](/design/flows/flow-dotnet-aspnetcore.md)
+  - [Blazor](/design/flows/flow-dotnet-blazor.md)
+  - [AI, MEAI, MAF](/design/flows/flow-dotnet-ai.md)
+- [Frontend Development (HTML, CSS, TypeScript)](/design/flows/flow-frontend.md)
 
 # Repo Structure
 The repository is structured to provide a clear and organized learning path for participants. It includes:
