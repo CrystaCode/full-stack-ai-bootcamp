@@ -9,7 +9,6 @@ The curriculum covers a range of topics, including:
 - Learning with AI
 - Development using AI (GitHub Copilot, Claude, Codex, etc.)
 - C# and .NET
-  - [EF Core](/design/flows/flow-dotnet-ef.md)
   - [ASP.NET Core](/design/flows/flow-dotnet-aspnetcore.md)
   - [Blazor](/design/flows/flow-dotnet-blazor.md)
   - [AI, MEAI, MAF](/design/flows/flow-dotnet-ai.md)
