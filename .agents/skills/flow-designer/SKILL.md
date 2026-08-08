@@ -45,7 +45,7 @@ Following steps help you to master these topics:
   - [Framework / Platform Docs](https://...)
 
 ## Steps
-The steps below outline the complete learning path structured directly around the primary resources, with optional secondary video, documentation, and framework resources:
+The checklist below describes modular learning topics and outcomes. It does not prescribe course order unless ordering or prerequisites are explicitly requested:
 
 1. [ ] [Step 1 Title] ([Topic Reference 1](https://...), [Topic Reference 2](https://...))
 2. [ ] [Step 2 Title] ([Topic Reference](https://...))
@@ -80,6 +80,15 @@ N. [ ] (Optional) [Optional Advanced Step Title] ([Resource Link](https://...))
    - **Correct**: `1. [ ] Creating a JSON API with Minimal APIs ([Manning Book - Ch 5](https://...))`
    - **Incorrect**: `1. [ ] **Ch 5: Creating a JSON API with Minimal APIs**`
 
-7. **Video Timestamps**:
-   - Include exact timestamp parameters (`&t=...s`) in YouTube URLs and display readable timestamp tags (`@ MM:SS` or `@ HH:MM:SS`) in link text.
-   - *Example*: `[YouTube Crash Course @ 00:00](https://www.youtube.com/watch?v=holzuW1o6cs)`
+7. **Video Links and Timestamps**:
+   - Link a complete YouTube video without a timestamp parameter or timestamp label.
+   - Add a timestamp only when the link intentionally targets a specific chapter or segment within a video.
+   - For a specific segment, include the exact timestamp parameter (`&t=...s`) in the URL and a readable timestamp tag (`@ MM:SS` or `@ HH:MM:SS`) in the link text.
+   - Do not add `@ 00:00` or `&t=0s` to whole-video links.
+   - *Complete-video example*: `[YouTube Crash Course](https://www.youtube.com/watch?v=holzuW1o6cs)`
+   - *Segment example*: `[Dependency Injection @ 12:35](https://www.youtube.com/watch?v=holzuW1o6cs&t=755s)`
+
+8. **Flow Topics Are Modular by Default**:
+   - Treat flow steps as a catalog of competencies, activities, and resources that course designers can select and arrange.
+   - Do not state or imply that a topic must be learned before another course or module unless the user explicitly requests an order or a genuine technical dependency requires it.
+   - Avoid phrases such as "start with," "learn this first," or "before studying" when no dependency has been established.
