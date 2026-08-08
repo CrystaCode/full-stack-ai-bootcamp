@@ -5,16 +5,16 @@ This bootcamp is ideal for developers who have passed the CS Internship C# progr
 
 ## Curriculum
 The curriculum covers a range of topics, including:
-- [General AI, Learning, Research, Content, and Development](/design/flows/flow-ai-general.md)
+- [General AI, Learning, Research, Content, and Development](design/flows/flow-ai-general.md)
 - C# and .NET
-  - [ASP.NET Core](/design/flows/flow-dotnet-aspnetcore.md)
-  - [Blazor](/design/flows/flow-dotnet-blazor.md)
-  - [AI, MEAI, MAF](/design/flows/flow-dotnet-ai.md)
-- [Frontend Development (HTML, CSS, TypeScript)](/design/flows/flow-frontend.md)
+  - [ASP.NET Core](design/flows/flow-dotnet-aspnetcore.md)
+  - [Blazor](design/flows/flow-dotnet-blazor.md)
+  - [AI, MEAI, MAF](design/flows/flow-dotnet-ai.md)
+- [Frontend Development (HTML, CSS, TypeScript)](design/flows/flow-frontend.md)
 
 # Repo Structure
 The repository is structured to provide a clear and organized learning path for participants. It includes:
 
-- **[course](/course/readme.md)**: Contains the main course materials, including lectures, exercises, and projects.
-- **[design](/design/readme.md)**: Containts the the materials used to design the course, including curriculum outlines, lesson plans, decisions, and instructional strategies.
+- **[course](course/README.md)**: Contains the main course materials, including lectures, exercises, and projects.
+- **[design](design/README.md)**: Containts the the materials used to design the course, including curriculum outlines, lesson plans, decisions, and instructional strategies.
 
