@@ -5,9 +5,7 @@ This bootcamp is ideal for developers who have passed the CS Internship C# progr
 
 ## Curriculum
 The curriculum covers a range of topics, including:
-- Introduction to AI and Machine Learning
-- Learning with AI
-- Development using AI (GitHub Copilot, Claude, Codex, etc.)
+- [General AI, Learning, Research, Content, and Development](/design/flows/flow-ai-general.md)
 - C# and .NET
   - [ASP.NET Core](/design/flows/flow-dotnet-aspnetcore.md)
   - [Blazor](/design/flows/flow-dotnet-blazor.md)
