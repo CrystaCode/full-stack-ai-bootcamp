@@ -14,6 +14,6 @@ The resources below provide additional information and tutorials on using AI in 
 3. [x] Microsoft Extensions AI - ([Documentation](https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai))
 4. [x] AI in C# - ([YouTube Playlist](https://www.youtube.com/playlist?list=PLhGl0l5La4sYXjYOBv7h9l7x6qNuW34Cx))
 5. [x] Demystifying Microsoft Agent Framework Middleware - ([YouTube](https://www.youtube.com/watch?v=v7VLSZqAssU))
-6. [x] Microsoft Agent Framework WorkFlows Explained - ([YouTube](https://www.youtube.com/watch?v=KQ09sMHeFQY))
+6. [x] Microsoft Agent Framework WorkFlows Explained - ([YouTube](https://www.youtube.com/watch?v=2BB9-kWb1Tc))
 7. [x] Microsoft Agent Framework - ([Documentation](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-csharp))
 8. [x] Generative UI with AG-UI & A2UI - ([YouTube](https://www.youtube.com/watch?v=aYe12ryuB4s))
