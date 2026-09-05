@@ -13,17 +13,17 @@ Create reusable context for reliable AI work while introducing application confi
 
 ### General AI
 
-1. [ ] Build a prompt-based application that summarizes, infers, transforms, or expands text with structured output and edge-case review ([Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/dfbds/introduction))
-2. [ ] Create a reusable context pack and compare results with and without project goals, sources, examples, constraints, vocabulary, and completion criteria ([Context Engineering with Copilot](https://www.youtube.com/watch?v=0jEzUhU8bLc))
+1. [ ] Build a prompt application that summarizes, infers, transforms, or expands text with a consistent output schema, iterative improvement, and edge-case review ([Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/), [OpenAI prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering), [Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs), [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices))
+2. [ ] Create a reusable context pack with project goals, source links, examples, constraints, vocabulary, and completion criteria, then run the same prompt with and without it and score both with the same rubric ([Context Engineering with Copilot](https://www.youtube.com/watch?v=0jEzUhU8bLc), [VS Code: Context engineering guide](https://code.visualstudio.com/docs/agents/guides/context-engineering-guide), [VS Code: Custom instructions](https://code.visualstudio.com/docs/copilot/customization/custom-instructions), [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices))
 
 ### ASP.NET Core
 
-1. [ ] Explain dependency injection, register services, select lifetimes, and consume dependencies without service location ([Book: Chapters 8 and 9](https://www.manning.com/books/asp-net-core-in-action-third-edition), [Dependency Injection @ 2:26:52](https://www.youtube.com/watch?v=YbRe4iIVYJk&t=8812s))
-2. [ ] Load environment-aware configuration and bind validated options for application behavior ([Book: Chapter 10](https://www.manning.com/books/asp-net-core-in-action-third-edition), [Configuration @ 2:17:46](https://www.youtube.com/watch?v=YbRe4iIVYJk&t=8266s))
+1. [ ] Explain dependency injection, register services, select lifetimes, and consume dependencies without service location ([Book: Chapter 8](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-8), [Book: Chapter 9](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-9), [Dependency Injection @ 2:26:52](https://www.youtube.com/watch?v=YbRe4iIVYJk&t=8812s))
+2. [ ] Load environment-aware configuration and bind validated options for application behavior ([Book: Chapter 10](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-10), [Configuration @ 2:17:46](https://www.youtube.com/watch?v=YbRe4iIVYJk&t=8266s), [Microsoft: Options validation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-10.0#validateonstart))
 
 ### Frontend
 
-1. [ ] Apply positioning, transitions, and animations with attention to focus, reduced motion, and content readability ([CSS Reference](https://cssreference.io/))
+1. [ ] Apply positioning, transitions, and animations while preserving focus visibility and honoring reduced-motion preferences ([CSS Positioning](https://cssreference.io/positioning/), [CSS Transitions](https://cssreference.io/transitions/), [CSS Animations](https://cssreference.io/animations/), [MDN: `:focus-visible`](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible), [MDN: `prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion))
 
 ### Blazor
 

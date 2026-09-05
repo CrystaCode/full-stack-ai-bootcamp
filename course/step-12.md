@@ -1,89 +1,111 @@
-# Step 12: Integrated Capstone
+# Step 12: Production AI Applications
 
-Complete, evaluate, demonstrate, and reflect on the full-stack AI product and the evidence accumulated throughout the course.
+Prepare the portfolio application for real operation by evaluating its AI opportunities, hardening and orchestrating its services, verifying its agent packages, and adding a validated generative interface.
 
 ## Outcomes
 
-- Deliver a coherent portfolio application rather than a collection of disconnected exercises.
-- Demonstrate source-grounded research, responsible AI decisions, human review, and non-AI fallbacks.
-- Defend the product architecture and show automated and operational evidence.
-- Communicate results, limitations, corrections, and future work to a technical audience.
+- Decide where AI creates product value and where a non-AI solution is safer.
+- Publish, secure, and operationally verify the application.
+- Orchestrate application resources with .NET Aspire.
+- Evaluate production Blazor architecture options.
+- Build a generative UI interaction that follows agent protocols.
+- Verify AI package choices against a date-pinned current Agent Framework release and each package's lifecycle status.
 
 ## Study Items
 
-### Capstone Review
+### General AI
 
-1. [ ] Review the integrated portfolio outcome and identify missing research, educational, communication, application, prompt, context, source, check, correction, or human-decision evidence ([General AI Flow](../design/flows/flow-ai-general.md))
-2. [ ] Re-run the responsible-use review against the completed product and its actual data paths ([LLM Deep Dive](https://www.youtube.com/watch?v=7xTGNNLPyMI))
-3. [ ] Review the test strategy and close gaps in critical API and browser journeys ([Playwright .NET](https://playwright.dev/dotnet/))
-4. [ ] Revisit the AI opportunity map and confirm that implemented AI features still outperform their documented non-AI alternatives for the intended cases ([AI for Application Developers](https://www.youtube.com/watch?v=awztkr8n0AA))
+1. [ ] Create an AI opportunity map covering intelligent features, smaller models, multimodal interfaces, tool use, agents, evaluation, risk, and non-AI alternatives or fallbacks ([AI for Application Developers](https://www.youtube.com/watch?v=awztkr8n0AA), [NIST AI RMF Playbook](https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook), [Agent Framework evaluation](https://learn.microsoft.com/en-us/agent-framework/agents/evaluation))
+
+### ASP.NET Core
+
+1. [ ] Publish an ASP.NET Core application and document a repeatable, target-specific deployment and rollback process ([Book: Chapter 27](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-27), [`dotnet publish`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-publish), [ASP.NET Core hosting and deployment](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-10.0), [Azure deployment slots example](https://learn.microsoft.com/en-us/azure/app-service/deploy-staging-slots))
+2. [ ] Apply HTTPS, secret handling, secure headers, least privilege, dependency review, and production hardening ([Book: Chapter 28](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-28), [Chapter 29](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-29), [HTTPS and HSTS](https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-10.0), [Application secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-10.0), [Resource authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/secure-data?view=aspnetcore-10.0), [Review vulnerable packages](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-package-list), [OWASP HTTP security headers](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html))
+3. [ ] Model and run the application resources through a .NET Aspire AppHost and inspect their health, logs, traces, and metrics ([Introduction to .NET Aspire](https://www.youtube.com/watch?v=x2KAfsFydIo), [Add Aspire to an existing app](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/add-aspire-existing-app), [Aspire dashboard overview](https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/dashboard/overview), [Explore the dashboard](https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/dashboard/explore))
+
+### Blazor
+
+1. [ ] Evaluate current Blazor hosting, render, Hybrid, and optional framework choices against the product requirements, treating Bit Platform as a case study rather than the sole authority ([Blazor hosting models](https://learn.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-10.0), [Blazor render modes](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0), [Blazor Hybrid](https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/?view=aspnetcore-10.0), [Bit Platform](https://bitplatform.dev/))
+
+### .NET AI
+
+1. [ ] Implement generative UI interactions with AG-UI and connect them to the product agents ([How to use AG-UI](https://www.youtube.com/watch?v=tDQc6lZUbYc), [Advanced AG-UI](https://www.youtube.com/watch?v=9nEcVoQCkYA), [AG-UI and A2UI](https://www.youtube.com/watch?v=aYe12ryuB4s), [Current AG-UI integration](https://learn.microsoft.com/en-us/agent-framework/integrations/ag-ui/), [AG-UI getting started](https://learn.microsoft.com/en-us/agent-framework/integrations/ag-ui/getting-started))
+2. [ ] Explain how agent protocols such as A2A let independent agents and services cooperate ([A2A Protocol](https://www.youtube.com/watch?v=g72ks3rY9qQ), [Current A2A integration](https://learn.microsoft.com/en-us/agent-framework/integrations/a2a))
+3. [ ] Record the audit date, exact Agent Framework package versions, lifecycle status, and breaking-change risk against production requirements ([GA Part 2](https://www.youtube.com/watch?v=UaRB9uC1rTI), [Current overview](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-csharp), [Official releases](https://github.com/microsoft/agent-framework/releases))
 
 ## Tasks
 
-### Task 1: Complete the Capstone Release
+### Task 1: Approve the Production AI Architecture
 
-**Goal:** Produce a stable, reviewable release of the integrated portfolio application.
+**Goal:** Make evidence-based decisions about AI, UI, security, and operational boundaries.
 
-**Deliverable:** Versioned source code, release notes, deployment instructions, architecture documentation, database setup, automated checks, and a known-limitations list.
-
-**Requirements:**
-
-- Remove unfinished required paths or mark them clearly as excluded from the release.
-- Run formatting, build, test, security, and secret checks appropriate to the repository.
-- Verify the application from a clean setup using the learner documentation.
-- Tag or otherwise identify the exact capstone revision.
-
-**Acceptance criteria:**
-
-- [ ] The documented setup produces a running complete system.
-- [ ] Required automated checks pass on the capstone revision.
-- [ ] No secrets, private data, or unsupported claims are included.
-- [ ] Known limitations and fallback behavior are visible to reviewers.
-
-### Task 2: Assemble the Evidence Portfolio
-
-**Goal:** Make the learning process, AI assistance, verification, and human judgment auditable.
-
-**Deliverable:** Portfolio index linking the research brief, learning artifact, prompt and context records, content and visual artifacts, architecture decisions, source code, tests, evaluations, corrections, and human-controlled decisions.
+**Deliverable:** AI opportunity map, architecture decision record, threat and failure review, evaluation plan, and non-AI fallbacks.
 
 **Requirements:**
 
-- Include representative failed attempts and explain what changed.
-- Trace important claims to sources and important product decisions to evidence.
-- Distinguish AI-generated suggestions from learner-authored decisions and final responsibility.
+- Score opportunities for user value, feasibility, evidence quality, cost, latency, verification effort, and harm.
+- Decide which of the implemented agent capabilities ship to production and which stay behind a flag or are excluded.
+- Select one generative UI interaction that fits the product and the existing agents.
+- Define human approval points and behavior when AI is unavailable.
+- Evaluate the current Blazor architecture and record whether a production framework change is justified.
 
 **Acceptance criteria:**
 
-- [ ] Every portfolio link resolves to an included or publicly accessible artifact.
-- [ ] The portfolio demonstrates all primary outcome groups in the coverage map.
-- [ ] Corrections and rejected AI suggestions are represented honestly.
-- [ ] A reviewer can identify where human approval controls product state.
+- [ ] Rejected or deferred AI opportunities include a clear reason.
+- [ ] Each selected feature has measurable evaluation criteria.
+- [ ] The architecture record distinguishes current decisions from future options.
+- [ ] Every critical AI path has a safe fallback or controlled failure.
 
-### Task 3: Demonstrate and Defend the Product
+### Task 2: Orchestrate and Harden the Application
 
-**Goal:** Present the product as a working system and defend its technical and responsible-use decisions.
+**Goal:** Make all application resources repeatable, observable, and suitable for deployment.
 
-**Deliverable:** Live or recorded demonstration, concise presentation, question-and-answer notes, retrospective, and prioritized next-step list.
+**Deliverable:** Aspire AppHost, health checks, secure configuration, date-pinned AI package review, publish instructions, rollback procedure, and production-readiness checklist.
 
 **Requirements:**
 
-- Demonstrate one standard user journey, one AI-assisted journey, one failure or fallback, and one operational signal.
-- Explain architecture, data flow, security boundary, evaluation method, and human approval point.
-- Record feedback and identify what should be kept, changed, or stopped.
+- Model the web UI, API, database, and supporting resources in the AppHost.
+- Keep secrets outside source control and use least-privilege access.
+- Enforce HTTPS and review public endpoints and error details.
+- Review exact AI and agent package versions against the official release history and package-specific stable, prerelease, or experimental status; record upgrade, pinning, or removal decisions.
+- Capture resource health, logs, and one distributed operation where available.
 
 **Acceptance criteria:**
 
-- [ ] The demonstration uses the submitted capstone revision.
-- [ ] Claims made during the presentation are supported by product or evaluation evidence.
-- [ ] The retrospective names concrete technical and learning improvements.
-- [ ] Future work is prioritized by value, risk, and dependency.
+- [ ] A new developer can start the complete system from documented commands.
+- [ ] The Aspire dashboard shows expected resources as healthy.
+- [ ] Repository history and configuration contain no committed secrets.
+- [ ] Package review decisions are recorded with reasons.
+- [ ] Publish and rollback instructions are executable and unambiguous.
+
+### Task 3: Add the Generative Interface
+
+**Goal:** Implement the approved generative UI interaction on top of the existing agents within the documented safety boundaries.
+
+**Deliverable:** Generative UI component, agent connection, protocol usage or justification, evaluation cases, and fallback behavior.
+
+**Requirements:**
+
+- Drive the interface from the tool-using agents built in the previous step.
+- Validate generated UI data before rendering or acting on it.
+- Make agent progress, approval requests, failures, and completion visible to the user.
+- Use or justify an agent protocol such as A2A where agents or services cross boundaries.
+- Test normal, invalid, unavailable-provider, and denied-approval scenarios.
+
+**Acceptance criteria:**
+
+- [ ] The agent cannot perform an approval-gated action without approval.
+- [ ] Invalid generated UI data fails safely.
+- [ ] The user can distinguish generated suggestions from committed application state.
+- [ ] Evaluation results meet the thresholds defined in the architecture task.
 
 ## Submission
 
-- Link to the identified capstone revision and release documentation.
-- Portfolio evidence index.
-- Demonstration recording or presentation details.
-- Retrospective and prioritized next-step list.
+- Opportunity map and architecture decision record.
+- Production-readiness, security, and package review checklist.
+- AppHost and deployment evidence.
+- Generative UI evaluation results.
+- Link to the step commit.
 
 ## Completion Criteria
 
@@ -93,9 +115,14 @@ Complete, evaluate, demonstrate, and reflect on the full-stack AI product and th
 
 ## Source Outcomes
 
-- Primary: `AI-21`
-- Reinforcement: `AI-03`, `AI-20`, `API-16`, `API-19`
+- `AI-20`
+- `API-15`
+- `API-16`
+- `API-20`
+- `BLAZOR-19`
+- `DOTNET-AI-10`
+- `DOTNET-AI-11`
 
 ## Navigation
 
-[Course Index](README.md) | [Previous Step](step-11.md)
+[Course Index](README.md) | [Previous Step](step-11.md) | [Next Step](step-13.md)

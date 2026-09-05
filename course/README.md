@@ -1,17 +1,19 @@
 # CrystaCode Full-Stack AI Bootcamp
 
-This course combines AI literacy, frontend foundations, ASP.NET Core, Blazor, and .NET AI development in one progressive learning journey. You will evolve one portfolio application from a simple web experience into a tested, secure, cloud-ready, AI-enabled product.
+This course blends AI literacy, frontend fundamentals, ASP.NET Core, Blazor, and .NET AI development into one progressive learning journey. Along the way, you'll build and improve one portfolio application as you learn.
 
 ## How the Course Works
 
-Each numbered step contains study items and practical tasks. Complete the study items, implement the tasks in your portfolio repository, and collect the requested evidence before marking the step complete.
+The course is organized into numbered steps, each with study items and hands-on tasks. Work through the study items, implement the tasks in your portfolio repository, and gather the required evidence before marking a step complete.
 
-- **Study items** build the knowledge needed for the milestone.
+- **Study items** build the knowledge you'll need for the milestone.
 - **Tasks** produce code, decisions, tests, or communication artifacts.
-- **Acceptance criteria** provide objective completion checks.
-- **Source outcomes** connect the step to the curriculum design flows.
+- **Acceptance criteria** spell out objective checks for completion.
+- **Source outcomes** tie each step back to the curriculum design flows.
 
-Use one product domain throughout the course. You may choose a learning tool, research assistant, content workspace, project assistant, or another domain approved by the instructor.
+Stick with a single product domain for the whole course: a learning tool, research assistant, content workspace, or project assistant all work well. If you'd prefer something else, just get the instructor's approval first.
+
+Product interfaces, plans, regional availability, and fast-moving AI libraries can change. When a named product is unavailable, use an instructor-approved equivalent and document the substitution. For version-sensitive .NET AI work, treat the linked videos as conceptual demonstrations and verify APIs, package status, and examples against the linked current official documentation before implementation.
 
 ## Course Steps
 
@@ -25,11 +27,12 @@ Use one product domain throughout the course. You may choose a learning tool, re
 8. [Step 08: Forms, Observability, and the First AI Feature](step-08.md)
 9. [Step 09: Agent-Assisted Integration](step-09.md)
 10. [Step 10: Reliable and Automated Workflows](step-10.md)
-11. [Step 11: Production AI Applications](step-11.md)
-12. [Step 12: Integrated Capstone](step-12.md)
+11. [Step 11: Agent Tools, Skills, and Coordination](step-11.md)
+12. [Step 12: Production AI Applications](step-12.md)
+13. [Step 13: Integrated Capstone](step-13.md)
 
 ## Final Outcome
 
-By the end of the course, you will have a portfolio-ready full-stack AI application and an evidence package containing its research, responsible-use decisions, prompts and context, architecture, source code, tests, deployment instructions, presentation, and human review record.
+By the end of the course, you'll have a portfolio-ready, full-stack AI application plus an evidence package documenting its research, AI-output checks, prompts and context, architecture, source code, tests, deployment instructions, presentation, and human review record.
 
-Curriculum designers can review full source coverage in the [course coverage map](../design/course-map.md).
+Curriculum designers can review the full source coverage in the [course coverage map](../design/course-map.md).

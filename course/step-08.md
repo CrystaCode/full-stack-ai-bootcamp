@@ -14,22 +14,22 @@ Add trustworthy data entry, structured diagnostics, and the first provider-neutr
 
 ### General AI
 
-1. [ ] Create a presentation from verified sources with an audience goal, story outline, accessible visuals, speaker notes, fact-checking, and rehearsal ([Gemini Notebook Integration](https://www.youtube.com/watch?v=Y-LTxr1bv9M), [Presentations with Microsoft 365 Copilot](https://www.youtube.com/watch?v=ioV4kREDrso))
-2. [ ] Use GitHub Copilot in VS Code for explanation, design, debugging, refactoring, tests, documentation, and review while verifying suggested changes ([Getting Started with GitHub Copilot](https://www.youtube.com/watch?v=n0NlxUyA7FI))
+1. [ ] Create a presentation from verified sources with an audience goal, story outline, accessible visuals, speaker notes, fact-checking, and rehearsal ([Gemini Notebook Integration](https://www.youtube.com/watch?v=Y-LTxr1bv9M), [Presentations with Microsoft 365 Copilot](https://www.youtube.com/watch?v=ioV4kREDrso), [Prepare a presentation with Copilot](https://support.microsoft.com/en-us/office/prepare-your-presentation-with-copilot-for-microsoft-365-7f06429e-c0c2-4819-8119-b519ad599796), [Make PowerPoint presentations accessible](https://support.microsoft.com/en-us/accessibility/powerpoint/make-your-powerpoint-presentations-accessible-to-people-with-disabilities), [Rehearse with Speaker Coach](https://support.microsoft.com/en-us/powerpoint/rehearse-your-slide-show-with-speaker-coach))
+2. [ ] Use GitHub Copilot in VS Code for explanation, design, debugging, refactoring, tests, documentation, and review while verifying suggested changes ([Getting Started with GitHub Copilot](https://www.youtube.com/watch?v=n0NlxUyA7FI), [Build with agents in VS Code](https://code.visualstudio.com/docs/agents/overview), [VS Code AI smart actions](https://code.visualstudio.com/docs/editing/copilot-smart-actions), [Review and revert agent changes](https://code.visualstudio.com/docs/agents/run/review-code-edits), [Coding-agent task practices](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/best-practices-for-using-copilot-to-work-on-tasks))
 
 ### ASP.NET Core
 
-1. [ ] Use structured logging to monitor requests, correlate operations, and diagnose an application failure ([Book: Chapter 26](https://www.manning.com/books/asp-net-core-in-action-third-edition), [Structured Logging](https://www.youtube.com/watch?v=MHJ0BHfWhRw))
+1. [ ] Use structured logging, scopes, and activity identifiers to monitor requests, correlate operations, and diagnose an application failure ([Book: Chapter 26](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-26), [Structured Logging](https://www.youtube.com/watch?v=MHJ0BHfWhRw), [ASP.NET Core logging](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-10.0))
 
 ### Blazor
 
 1. [ ] Build forms that edit application data through Blazor input components ([Forms](https://blazor-university.com/forms/), [Editing Form Data](https://blazor-university.com/forms/editing-form-data))
-2. [ ] Apply data annotations and custom validation with clear accessible feedback ([Validation](https://blazor-university.com/forms/validation), [Custom Validation](https://blazor-university.com/forms/writing-custom-validation))
-3. [ ] Use `EditContext`, field identifiers, and field state to manage validation and unsaved changes ([EditContext and Field State](https://blazor-university.com/forms/editcontext-fieldidentifiers-and-fieldstate))
+2. [ ] Apply data annotations and custom validation with clear, accessible error notifications ([Validation](https://blazor-university.com/forms/validation), [Custom Validation](https://blazor-university.com/forms/writing-custom-validation), [Current Blazor validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms/validation?view=aspnetcore-10.0), [Accessible error notifications](https://www.w3.org/WAI/tutorials/forms/notifications/))
+3. [ ] Use public `EditContext` modification and validation APIs with navigation interception to manage unsaved changes ([EditContext concepts](https://blazor-university.com/forms/editcontext-fieldidentifiers-and-fieldstate), [`EditContext` API](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.forms.editcontext?view=aspnetcore-10.0), [Current Blazor validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms/validation?view=aspnetcore-10.0), [Blazor navigation and `NavigationLock`](https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/navigation?view=aspnetcore-10.0))
 
 ### .NET AI
 
-1. [ ] Identify Microsoft Extensions AI abstractions and implement a first AI-backed .NET feature ([Building AI Apps in .NET](https://www.youtube.com/watch?v=4B3ppx2U8bE))
+1. [ ] Identify Microsoft Extensions AI abstractions and implement a first AI-backed .NET feature ([Building AI Apps in .NET](https://www.youtube.com/watch?v=4B3ppx2U8bE), [Extensions AI overview](https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai), [Use `IChatClient`](https://learn.microsoft.com/en-us/dotnet/ai/ichatclient), [Build an AI chat app](https://learn.microsoft.com/en-us/dotnet/ai/quickstarts/build-chat-app))
 2. [ ] Add generative AI through provider-neutral services and configuration rather than provider-specific application logic ([Adding GenAI to .NET Apps](https://www.youtube.com/watch?v=sgrsopf-fzo))
 
 ## Tasks
@@ -115,7 +115,6 @@ Add trustworthy data entry, structured diagnostics, and the first provider-neutr
 - `BLAZOR-13`
 - `BLAZOR-14`
 - `DOTNET-AI-01`
-- `DOTNET-AI-02`
 
 ## Navigation
 

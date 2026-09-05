@@ -1,104 +1,89 @@
-# Step 11: Production AI Applications
+# Step 11: Agent Tools, Skills, and Coordination
 
-Prepare the portfolio application for real operation by evaluating its AI opportunities, hardening and orchestrating its services, and adding a bounded agent and generative interface.
+Turn the first product agent into an actor: agents call controlled tools, package reusable skills, coordinate as specialized teams, and expose auditable decision traces while the portfolio application stays in charge.
 
 ## Outcomes
 
-- Decide where AI creates product value and where a non-AI solution is safer.
-- Publish, secure, and operationally verify the application.
-- Orchestrate application resources with .NET Aspire.
-- Evaluate production Blazor architecture options.
-- Build a bounded Agent Framework feature and a validated generative UI interaction.
+- Call controlled tools from an agent, including tools exposed through MCP.
+- Package reusable agent capabilities with the current Agent Skills provider.
+- Coordinate multiple specialized agents inside one product scenario.
+- Explain reasoning-model tradeoffs and distinguish private reasoning from observable decision evidence.
 
 ## Study Items
 
-### General AI
-
-1. [ ] Create an AI opportunity map covering intelligent features, smaller models, multimodal interfaces, tool use, agents, evaluation, risk, and non-AI fallback ([AI for Application Developers](https://www.youtube.com/watch?v=awztkr8n0AA))
-
-### ASP.NET Core
-
-1. [ ] Publish an ASP.NET Core application and document a repeatable deployment and rollback process ([Book: Chapter 27](https://www.manning.com/books/asp-net-core-in-action-third-edition), [Deployment Learning Path](https://learn.microsoft.com/en-us/training/paths/aspnet-core-web-app/))
-2. [ ] Apply HTTPS, secret handling, secure headers, least privilege, dependency review, and production hardening ([Book: Chapters 28 and 29](https://www.manning.com/books/asp-net-core-in-action-third-edition))
-3. [ ] Model and run the application resources through a .NET Aspire AppHost and inspect their health and telemetry ([Introduction to .NET Aspire](https://www.youtube.com/watch?v=x2KAfsFydIo))
-
-### Blazor
-
-1. [ ] Evaluate production application architecture and cross-platform UI options against the product requirements ([Bit Platform Documentation](https://bitplatform.dev/))
-
 ### .NET AI
 
-1. [ ] Build a bounded tool-using feature with Microsoft Agent Framework and explicit approval points ([Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-csharp))
-2. [ ] Implement and validate a generative UI interaction using AG-UI or A2UI concepts ([Generative UI with AG-UI and A2UI](https://www.youtube.com/watch?v=aYe12ryuB4s))
+1. [ ] Call controlled tools from an agent and compare the `AIAgent` and `ChatClientAgent` abstractions ([Tool Calling](https://www.youtube.com/watch?v=gJTodKpv8Ik), [Advanced Tool Calling](https://www.youtube.com/watch?v=dCtojrK8bKk), [AIAgent vs ChatClientAgent](https://www.youtube.com/watch?v=pN-WV5FD_-Y), [Current Agent Framework tools](https://learn.microsoft.com/en-us/agent-framework/agents/tools/))
+2. [ ] Connect tools exposed through the Model Context Protocol to an agent ([MCP Tool Calling](https://www.youtube.com/watch?v=Y5IKdt9vdJM), [Current Agent Framework tools](https://learn.microsoft.com/en-us/agent-framework/agents/tools/))
+3. [ ] Package a reusable capability with the current Agent Skills provider and distinguish it from earlier Toolkit demonstrations ([Earlier Toolkit demonstration](https://www.youtube.com/watch?v=_vAr693wM3o), [Skills in C#](https://www.youtube.com/watch?v=KHfJko3msLw), [Current Agent Skills guidance](https://learn.microsoft.com/en-us/agent-framework/agents/skills))
+4. [ ] Coordinate specialized agents using structured output, agent-as-tool composition, and justified concurrent or handoff patterns ([Multi-Agent and Workflows](https://www.youtube.com/watch?v=lIXJovzXNh4), [Structured Output](https://www.youtube.com/watch?v=2YzjRZTZxUo), [Agent as a tool](https://www.youtube.com/watch?v=wL4V78s_wI4), [Concurrent workflow](https://www.youtube.com/watch?v=qYxGJ-D3Tl0), [Handoff workflow](https://www.youtube.com/watch?v=VInKZ45YKAM), [Current workflow concepts](https://learn.microsoft.com/en-us/agent-framework/concepts/workflows/))
+5. [ ] Explain reasoning effort, overthinking, latency, token cost, and what reasoning may be exposed, then distinguish private model reasoning from auditable inputs, outputs, tool calls, results, retries, and traces ([Reasoning Deep Dive Part 1](https://www.youtube.com/watch?v=pD3A3rC_D5Q), [Agent tracing overview](https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-agent-concept), [AI-system observability](https://learn.microsoft.com/en-us/security/zero-trust/sfi/observability-ai-systems))
 
 ## Tasks
 
-### Task 1: Approve the Production AI Architecture
+### Task 1: Give the Product Agent Tools
 
-**Goal:** Make evidence-based decisions about AI, UI, security, and operational boundaries.
+**Goal:** Let the agent complete real product work through a least-privilege tool set.
 
-**Deliverable:** AI opportunity map, architecture decision record, threat and failure review, evaluation plan, and non-AI fallbacks.
-
-**Requirements:**
-
-- Score opportunities for user value, feasibility, evidence quality, cost, latency, privacy, and harm.
-- Select one agent feature and one generative UI interaction that fit the product.
-- Define human approval points and behavior when AI is unavailable.
-- Evaluate the current Blazor architecture and record whether a production framework change is justified.
-
-**Acceptance criteria:**
-
-- [ ] Rejected AI opportunities include a clear reason.
-- [ ] Each selected feature has measurable evaluation criteria.
-- [ ] The architecture record distinguishes current decisions from future options.
-- [ ] Every critical AI path has a safe fallback or controlled failure.
-
-### Task 2: Orchestrate and Harden the Application
-
-**Goal:** Make all application resources repeatable, observable, and suitable for deployment.
-
-**Deliverable:** Aspire AppHost, health checks, secure configuration, publish instructions, rollback procedure, and production-readiness checklist.
+**Deliverable:** Tool-enabled agent, tool contracts, one MCP or externally exposed tool with justification, evaluation cases, and an observable decision trace.
 
 **Requirements:**
 
-- Model the web UI, API, database, and supporting resources in the AppHost.
-- Keep secrets outside source control and use least-privilege access.
-- Enforce HTTPS and review public endpoints and error details.
-- Capture resource health, logs, and one distributed operation where available.
+- Expose application operations as tools restricted to the minimum actions required.
+- Separate read-only tools from state-changing tools and gate the state-changing ones behind the approval path defined earlier.
+- Include at least one MCP tool, or document why MCP was not applicable.
+- Record tool calls, results, and failures without logging secrets or private data.
 
 **Acceptance criteria:**
 
-- [ ] A new developer can start the complete system from documented commands.
-- [ ] The Aspire dashboard shows expected resources as healthy.
-- [ ] Repository history and configuration contain no committed secrets.
-- [ ] Publish and rollback instructions are executable and unambiguous.
+- [ ] The agent completes a product task that requires at least two different tools.
+- [ ] State-changing actions cannot run without the documented approval path.
+- [ ] A failing tool produces a controlled agent response rather than a crash.
+- [ ] The decision trace records tool-selection rationale, calls, results, and failures for each run without exposing secrets or private chain-of-thought.
 
-### Task 3: Add the Intelligent Interaction
+### Task 2: Package a Reusable Agent Skill
 
-**Goal:** Implement the approved agent and generative UI features within the documented safety boundaries.
+**Goal:** Capture one product capability as a reusable, documented agent skill.
 
-**Deliverable:** Agent feature, tool contracts, approval flow, generative UI component, evaluation cases, and fallback behavior.
+**Deliverable:** Version-pinned Agent Skills configuration, a packaged skill with instructions and resources, usage examples, and a comparison of agent behavior with and without the skill.
 
 **Requirements:**
 
-- Restrict tools to the minimum operations required.
-- Validate generated UI data before rendering or acting on it.
-- Make agent progress, approval requests, failures, and completion visible to the user.
-- Test normal, invalid, unavailable-provider, and denied-approval scenarios.
+- Define the skill purpose, inputs, and boundaries in its instructions.
+- Keep skill content versioned with the application.
+- Demonstrate the skill improving at least one measurable agent behavior.
 
 **Acceptance criteria:**
 
-- [ ] The agent cannot perform an approval-gated action without approval.
-- [ ] Invalid generated UI data fails safely.
-- [ ] The user can distinguish generated suggestions from committed application state.
-- [ ] Evaluation results meet the thresholds defined in the architecture task.
+- [ ] The skill is discovered and used by the agent without code changes.
+- [ ] The with-and-without comparison shows an observable difference.
+- [ ] Skill content contains no secrets or private user data.
+
+### Task 3: Coordinate a Multi-Agent Workflow
+
+**Goal:** Decompose one product scenario across specialized cooperating agents.
+
+**Deliverable:** Multi-agent orchestration, structured output contracts between agents, a full run transcript, and an explanation of each agent's decisions.
+
+**Requirements:**
+
+- Assign each agent one clear role and a documented contract.
+- Pass data between agents using validated structured output.
+- Compose agents directly or through the workflow built in the previous step.
+- Capture a complete run showing inputs, tool use, handoffs, and the final output.
+
+**Acceptance criteria:**
+
+- [ ] The coordinated run integrates at least two specialized roles whose outputs are separately validated before the final result.
+- [ ] Invalid structured output is rejected rather than passed downstream.
+- [ ] The transcript attributes each decision and tool call to a named agent.
+- [ ] The explanation identifies at least one way the design can fail and how that failure is handled.
 
 ## Submission
 
-- Opportunity map and architecture decision record.
-- Production-readiness and security checklist.
-- AppHost and deployment evidence.
-- Agent and generative UI evaluation results.
+- Tool contracts, approval path documentation, and decision traces.
+- Packaged skill and with-and-without comparison.
+- Multi-agent orchestration, run transcript, and decision explanation.
 - Link to the step commit.
 
 ## Completion Criteria
@@ -109,13 +94,10 @@ Prepare the portfolio application for real operation by evaluating its AI opport
 
 ## Source Outcomes
 
-- `AI-20`
-- `API-15`
-- `API-16`
-- `API-20`
-- `BLAZOR-19`
+- `DOTNET-AI-05`
+- `DOTNET-AI-06`
 - `DOTNET-AI-07`
-- `DOTNET-AI-08`
+- `DOTNET-AI-09`
 
 ## Navigation
 

@@ -13,20 +13,20 @@ Move from temporary behavior to a documented, persistent, responsive product whi
 
 ### General AI
 
-1. [ ] Design and test a bounded AI loop with planning, action, observation, evaluation, revision, iteration limits, stop conditions, and human approval ([Agent-First Development](https://www.youtube.com/watch?v=uu4sf8z9n8c))
+1. [ ] Explain the agent-first harness, model, prompt, tool, and context concepts, then design and test a bounded plan-action-evaluation loop with iteration limits, stop conditions, and human approval ([Agent-First Development](https://www.youtube.com/watch?v=uu4sf8z9n8c), [Agent loop and maximum turns](https://openai.github.io/openai-agents-python/running_agents/#the-agent-loop), [Agent orchestration](https://openai.github.io/openai-agents-python/multi_agent/), [GitHub Copilot task best practices](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/best-practices-for-using-copilot-to-work-on-tasks))
 
 ### ASP.NET Core
 
-1. [ ] Generate, inspect, and improve OpenAPI documentation for the application endpoints ([Book: Chapter 11](https://www.manning.com/books/asp-net-core-in-action-third-edition), [OpenAPI in .NET](https://www.youtube.com/watch?v=0qtwYT4n2CM))
-2. [ ] Model relational data, use EF Core migrations, and explain the SQL operations behind persistent CRUD behavior ([Book: Chapter 12](https://www.manning.com/books/asp-net-core-in-action-third-edition), [EF Core @ 1:34:00](https://www.youtube.com/watch?v=YbRe4iIVYJk&t=5640s), [SQL Tutorial](https://www.w3schools.com/sql/))
+1. [ ] Generate, inspect, and improve OpenAPI documentation for the application endpoints ([Book: Chapter 11](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-11), [OpenAPI in .NET](https://www.youtube.com/watch?v=0qtwYT4n2CM), [Include OpenAPI metadata](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/openapi/include-metadata?view=aspnetcore-10.0))
+2. [ ] Model relational data, use EF Core migrations, and explain the SQL operations behind persistent CRUD behavior ([Book: Chapter 12](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-12), [EF Core @ 1:34:00](https://www.youtube.com/watch?v=YbRe4iIVYJk&t=5640s), [SQL and EF Core @ 32:42](https://www.youtube.com/watch?v=38GNKtclDdE&t=1962s), [SQL Tutorial](https://www.w3schools.com/sql/))
 
 ### Frontend
 
-1. [ ] Apply fluid sizing, media queries, responsive layout changes, and mobile-first checks to the product UI ([Responsive Web Design](https://www.youtube.com/watch?v=zF6VSky4SIc))
+1. [ ] Apply fluid sizing, media queries, responsive layout changes, and mobile-first checks to the product UI ([Responsive Web Design](https://www.youtube.com/watch?v=zF6VSky4SIc), [MDN: Responsive design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design))
 
 ### Blazor
 
-1. [ ] Handle component events and browser DOM events while keeping behavior testable and accessible ([Component Events](https://blazor-university.com/components/component-events), [Browser DOM Events](https://blazor-university.com/components/component-events/browser-dom-events))
+1. [ ] Handle component and browser DOM events, then test mouse and keyboard interaction paths for custom controls ([Component Events](https://blazor-university.com/components/component-events), [Browser DOM Events](https://blazor-university.com/components/component-events/browser-dom-events), [bUnit event tests](https://bunit.dev/docs/interaction/trigger-event-handlers.html), [WAI: Keyboard interface](https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/))
 2. [ ] Use cascading values for shared UI context and capture unmatched attributes for extensible components ([Cascading Values](https://blazor-university.com/components/cascading-values), [Capturing Unexpected Parameters](https://blazor-university.com/components/capturing-unexpected-parameters))
 
 ## Tasks

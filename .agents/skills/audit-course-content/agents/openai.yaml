@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course Content Auditor"
+  short_description: "Verify course claims against linked resources"
+  default_prompt: "Use $audit-course-content to verify every course claim against its linked resources."

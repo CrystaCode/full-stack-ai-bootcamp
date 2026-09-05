@@ -13,16 +13,16 @@ Create verified communication artifacts and a maintainable content-management sl
 
 ### General AI
 
-1. [ ] Transform a verified content brief into an article, email, and social post while preserving facts, adapting voice, and recording human edits ([Gemini Practical Course](https://www.youtube.com/watch?v=-_FizlRlfYs))
+1. [ ] Use Gemini files, Canvas, and a reusable Gem to transform a verified brief into an article, email, and social post, then check facts against the brief and record human edits ([Gemini Practical Course](https://www.youtube.com/watch?v=-_FizlRlfYs), [Gemini Canvas](https://support.google.com/gemini/answer/16047321?hl=en), [Gemini Gems](https://support.google.com/gemini/answer/15236321?hl=en), [Gemini source links](https://support.google.com/gemini/answer/14143489?co=GENIE.Platform%3DDesktop&hl=en), [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices))
 
 ### ASP.NET Core
 
-1. [ ] Compare controller-based APIs with Minimal APIs and implement a cohesive controller endpoint set ([Book: Chapter 20](https://www.manning.com/books/asp-net-core-in-action-third-edition), [Controller APIs @ 10:00](https://www.youtube.com/watch?v=38GNKtclDdE&t=600s))
-2. [ ] Apply filters for reusable cross-cutting behavior and explain their execution order ([Book: Chapters 21 and 22](https://www.manning.com/books/asp-net-core-in-action-third-edition), [Minimal API Filters](https://www.youtube.com/watch?v=2XoZOPrxegw))
+1. [ ] Compare the implementation shape of controller-based and Minimal APIs and implement a cohesive controller endpoint set ([Book: Chapter 20](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-20), [ASP.NET Core API approaches](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/apis?view=aspnetcore-10.0), [Controller APIs @ 10:00](https://www.youtube.com/watch?v=38GNKtclDdE&t=600s))
+2. [ ] Apply filters for reusable cross-cutting behavior and explain their execution order ([Book: Chapter 21](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-21), [Book: Chapter 22](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-22), [Minimal API Filters](https://www.youtube.com/watch?v=2XoZOPrxegw))
 
 ### Blazor
 
-1. [ ] Observe component lifecycle methods and update rendered state safely when work completes asynchronously ([Component Lifecycles](https://blazor-university.com/components/component-lifecycles), [Multi-Threaded Rendering](https://blazor-university.com/components/multi-threaded-rendering))
+1. [ ] Observe component lifecycle methods and update rendered state safely when work completes asynchronously ([Component Lifecycles](https://blazor-university.com/components/component-lifecycles), [Multi-Threaded Rendering](https://blazor-university.com/components/multi-threaded-rendering), [Thread safety with `InvokeAsync`](https://blazor-university.com/components/multi-threaded-rendering/invokeasync/))
 2. [ ] Explain render-tree comparison and use `@key` where stable component identity matters ([Render Trees](https://blazor-university.com/components/render-trees), [Optimizing with @key](https://blazor-university.com/components/render-trees/optimising-using-key))
 
 ## Tasks

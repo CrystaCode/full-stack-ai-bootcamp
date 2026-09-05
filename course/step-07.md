@@ -4,7 +4,7 @@ Protect product capabilities, create reusable routed UI, and generate a reviewed
 
 ## Outcomes
 
-- Generate and evaluate an image for composition, accuracy, audience fit, rights, and disclosure.
+- Generate image variations, compare them with an explicit rubric, and document the final human choice.
 - Authenticate users and authorize protected API behavior.
 - Build generic templated components.
 - Implement parameterized routes and deliberate navigation behavior.
@@ -13,17 +13,17 @@ Protect product capabilities, create reusable routed UI, and generate a reviewed
 
 ### General AI
 
-1. [ ] Generate and refine an image, then evaluate composition, details, style, text accuracy, audience fit, rights, disclosure, and variation consistency ([Image Creation Examples](https://www.youtube.com/watch?v=EUEsvyEMRzY))
+1. [ ] Generate image variations for a communication goal, inspect visible strengths and errors, compare the variations with an explicit rubric, and record the final human choice ([Image Creation Examples](https://www.youtube.com/watch?v=EUEsvyEMRzY), [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices))
 
 ### ASP.NET Core
 
-1. [ ] Implement authentication and authorization, distinguish roles from policies, and protect API operations consistently ([Book: Chapters 23 to 25](https://www.manning.com/books/asp-net-core-in-action-third-edition), [JWT Authentication and Authorization](https://www.youtube.com/watch?v=mgeuh8k3I4g))
+1. [ ] Implement authentication and authorization, distinguish roles from policies, and protect API operations consistently ([Book: Chapter 23](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-23), [Chapter 24](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-24), [Chapter 25](https://livebook.manning.com/book/asp-net-core-in-action-third-edition/chapter-25), [Authorization overview](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-10.0), [Role-based authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/roles?view=aspnetcore-10.0), [Policy-based authorization](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/policies?view=aspnetcore-10.0), [JWT Authentication and Authorization](https://www.youtube.com/watch?v=mgeuh8k3I4g))
 
 ### Blazor
 
 1. [ ] Build a reusable templated component with `RenderFragment` and a generic type parameter ([RenderFragments](https://blazor-university.com/templating-components-with-renderfragements/), [Generic Components](https://blazor-university.com/templating-components-with-renderfragements/using-typeparam-to-create-generic-components))
 2. [ ] Define routes and route parameters for list, details, and editing experiences ([Defining Routes](https://blazor-university.com/routing/defining-routes), [Route Parameters](https://blazor-university.com/routing/route-parameters))
-3. [ ] Use HTML and programmatic navigation and respond intentionally to navigation events ([HTML Navigation](https://blazor-university.com/routing/navigating-our-app-via-html), [Code Navigation](https://blazor-university.com/routing/navigating-our-app-via-code), [Navigation Events](https://blazor-university.com/routing/detecting-navigation-events))
+3. [ ] Use HTML and programmatic navigation and respond intentionally to navigation events across current Blazor navigation modes ([HTML Navigation](https://blazor-university.com/routing/navigating-our-app-via-html), [Code Navigation](https://blazor-university.com/routing/navigating-our-app-via-code), [Navigation Events](https://blazor-university.com/routing/detecting-navigation-events), [Current Blazor navigation](https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/navigation?view=aspnetcore-10.0))
 
 ## Tasks
 
@@ -31,19 +31,19 @@ Protect product capabilities, create reusable routed UI, and generate a reviewed
 
 **Goal:** Produce a useful visual asset without losing human editorial control.
 
-**Deliverable:** Image brief, at least three generated variations, selected final asset, evaluation rubric, and disclosure decision under `docs/visuals/`.
+**Deliverable:** Image brief, at least three generated variations, selected final asset, evaluation rubric, and selection rationale under `docs/visuals/`.
 
 **Requirements:**
 
-- Define the audience, placement, message, dimensions, and prohibited content.
-- Inspect anatomy, objects, text, composition, and brand consistency.
-- Record rights, attribution, and disclosure considerations.
+- Define the communication goal, audience, placement, and dimensions.
+- Inspect each variation for visible strengths and errors, then compare all variations with the same rubric.
+- Record why a person selected the final asset over the alternatives.
 
 **Acceptance criteria:**
 
 - [ ] The selected asset fulfills the documented communication goal.
 - [ ] Visible errors and unsupported claims have been removed.
-- [ ] The project records whether and how AI assistance will be disclosed.
+- [ ] The final selection is supported by the documented evaluation rubric and human review.
 
 ### Task 2: Build a Secured Navigable Experience
 
