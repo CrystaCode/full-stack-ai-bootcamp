@@ -13,7 +13,7 @@ Protect product capabilities, create reusable routed UI, and generate a reviewed
 
 ### General AI
 
-1. [ ] Generate image variations for a communication goal, inspect visible strengths and errors, compare the variations with an explicit rubric, and record the final human choice ([Image Creation Examples](https://www.youtube.com/watch?v=EUEsvyEMRzY), [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices))
+1. [ ] Generate image variations for a communication goal, inspect visible strengths and errors, compare the variations with an explicit rubric, and record the final human choice ([Create images](https://developers.openai.com/api/docs/guides/image-generation), [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices))
 
 ### ASP.NET Core
 

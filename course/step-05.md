@@ -13,7 +13,7 @@ Move from temporary behavior to a documented, persistent, responsive product whi
 
 ### General AI
 
-1. [ ] Explain the agent-first harness, model, prompt, tool, and context concepts, then design and test a bounded plan-action-evaluation loop with iteration limits, stop conditions, and human approval ([Agent-First Development](https://www.youtube.com/watch?v=uu4sf8z9n8c), [Agent loop and maximum turns](https://openai.github.io/openai-agents-python/running_agents/#the-agent-loop), [Agent orchestration](https://openai.github.io/openai-agents-python/multi_agent/), [GitHub Copilot task best practices](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/best-practices-for-using-copilot-to-work-on-tasks))
+1. [ ] Explain the agent-first harness, model, prompt, tool, and context concepts, then design and test a bounded plan-action-evaluation loop with iteration limits, stop conditions, and human approval ([Agent-First Development](https://www.youtube.com/watch?v=uu4sf8z9n8c), [Agent loop and maximum turns](https://openai.github.io/openai-agents-python/running_agents/#the-agent-loop), [Agent orchestration](https://openai.github.io/openai-agents-python/multi_agent/), [Copilot cloud-agent best practices](https://docs.github.com/en/copilot/tutorials/cloud-agent/get-the-best-results))
 
 ### ASP.NET Core
 
