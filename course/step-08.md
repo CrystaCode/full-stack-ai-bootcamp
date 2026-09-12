@@ -31,6 +31,7 @@ Add trustworthy data entry, structured diagnostics, and the first provider-neutr
 
 1. [ ] Identify Microsoft Extensions AI abstractions and implement a first AI-backed .NET feature ([Building AI Apps in .NET](https://www.youtube.com/watch?v=4B3ppx2U8bE), [Extensions AI overview](https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai), [Use `IChatClient`](https://learn.microsoft.com/en-us/dotnet/ai/ichatclient), [Build an AI chat app](https://learn.microsoft.com/en-us/dotnet/ai/quickstarts/build-chat-app))
 2. [ ] Add generative AI through provider-neutral services and configuration rather than provider-specific application logic ([Adding GenAI to .NET Apps](https://www.youtube.com/watch?v=sgrsopf-fzo))
+3. [ ] Stream model output with `IChatClient.CompleteStreamingAsync`, update the user interface incrementally without cross-thread render errors, and record what the chat feature needs from hosting and render modes ([Use `IChatClient`](https://learn.microsoft.com/en-us/dotnet/ai/ichatclient), [Build an AI chat app](https://learn.microsoft.com/en-us/dotnet/ai/quickstarts/build-chat-app))
 
 ## Tasks
 
