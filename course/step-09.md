@@ -29,7 +29,7 @@ Use bounded agent assistance and persistent repository context to integrate remo
 
 ### .NET AI
 
-1. [ ] Explain the Microsoft Agent Framework landscape and when to choose it over Semantic Kernel or direct Microsoft Extensions AI use ([Introduction](https://www.youtube.com/watch?v=9RNF9GsB8PU), [Agent Framework vs Semantic Kernel vs Extensions.AI](https://www.youtube.com/watch?v=6ue9SmEtG9k), [GA Part 1](https://www.youtube.com/watch?v=2ZwxQmT1l7s), [Current Agent Framework overview](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-csharp))
+1. [ ] Explain the Microsoft Agent Framework landscape and when to choose it over the legacy Semantic Kernel or direct Microsoft Extensions AI use ([Introduction](https://www.youtube.com/watch?v=9RNF9GsB8PU), [Agent Framework vs Semantic Kernel vs Extensions.AI](https://www.youtube.com/watch?v=6ue9SmEtG9k), [GA Part 1](https://www.youtube.com/watch?v=2ZwxQmT1l7s), [Current Agent Framework overview](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-csharp))
 2. [ ] Create and run a first agent in C# against the configured provider and compare provider options ([Getting Started](https://www.youtube.com/watch?v=HHy0-sXlmUY), [Zero to First OpenAI Agent](https://www.youtube.com/watch?v=CvA69UyqJ7U), [Using other LLMs](https://www.youtube.com/watch?v=GbyEQWwBMFk), [Current C# quickstart](https://learn.microsoft.com/en-us/agent-framework/get-started/))
 
 ## Tasks
