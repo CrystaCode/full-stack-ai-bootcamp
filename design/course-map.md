@@ -128,6 +128,14 @@ These outcomes receive primary coverage earlier and are deliberately re-evaluate
 
 - `BLAZOR-19` is optional in the modular Blazor flow but is deliberately promoted to a required architecture decision in Step 12 because the integrated capstone must defend its production hosting and cross-platform choices.
 - Accessibility practice is reinforced beyond the source outcome count: Step 04 verifies keyboard focus and reduced-motion behavior, Step 05 verifies custom-interaction keyboard behavior, Step 07 requires keyboard-accessible navigation, and Step 08 requires accessible validation feedback.
+- The following are course-specific supporting items (no new outcome IDs). Added September 2026:
+  - Step 04: token and context-window budgeting folded into the context-pack item (reinforces `AI-11`).
+  - Step 08: structured-output mechanics folded into the first-AI-feature item; new streaming-responses item; new optional local-model (Ollama) item (all reinforce `DOTNET-AI-01`).
+  - Step 09: `AGENTS.md` cross-tool instructions folded into the repository-context item (updates `AI-18` implementation detail); new workplace content-classification and team-policy item; new optional embeddings and grounded-generation item (reinforces `DOTNET-AI-01`).
+  - Step 10: new browser-automation MCP item using Playwright MCP or chrome-devtools MCP (reinforces `AI-19` method, pairs with `API-19` browser testing); new automated golden-set evaluation item (reinforces `API-19`, `DOTNET-AI-08`).
+  - Step 11: new prompt-injection defense item (reinforces `DOTNET-AI-05`, `API-16`); new MCP server implementation item exposing read-only operations (extends `DOTNET-AI-05`).
+  - Step 12: new token usage and cost-budgeting item (overlaps `DOTNET-AI-09`, `AI-20`); new production-operations item covering response caching, guardrails and moderation, and Azure AI Foundry evaluation (reinforces `AI-20`).
+  - Steps 08 and 09 intentionally carry nine study items (above the 4-8 preference) to absorb these supporting items without new outcome IDs.
 
 ## Coverage Summary
 
