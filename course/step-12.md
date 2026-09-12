@@ -33,6 +33,7 @@ Prepare the portfolio application for real operation by evaluating its AI opport
 2. [ ] Explain how agent protocols such as A2A let independent agents and services cooperate ([A2A Protocol](https://www.youtube.com/watch?v=g72ks3rY9qQ), [Current A2A integration](https://learn.microsoft.com/en-us/agent-framework/integrations/a2a))
 3. [ ] Record the audit date, exact Agent Framework package versions, lifecycle status, and breaking-change risk against production requirements ([GA Part 2](https://www.youtube.com/watch?v=UaRB9uC1rTI), [Current overview](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-csharp), [Official releases](https://github.com/microsoft/agent-framework/releases))
 4. [ ] Read token usage from AI responses, record estimated cost per AI feature over a representative workload, and define a budget or alert threshold that triggers review ([OpenAI pricing](https://developers.openai.com/api/docs/pricing), [Agent Framework overview](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-csharp))
+5. [ ] Add a response cache for deterministic AI prompts, screen inputs and outputs with moderation or guardrails for one user-facing feature, and record whether Azure AI Foundry or an equivalent service is justified for model deployment in this product ([Agent Framework overview](https://learn.microsoft.com/en-us/agent-framework/overview/?pivots=programming-language-csharp), [Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/))
 
 ## Tasks
 
