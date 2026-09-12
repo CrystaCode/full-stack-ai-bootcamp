@@ -135,6 +135,8 @@ These outcomes receive primary coverage earlier and are deliberately re-evaluate
   - Step 10: new browser-automation MCP item using Playwright MCP or chrome-devtools MCP (reinforces `AI-19` method, pairs with `API-19` browser testing); new automated golden-set evaluation item (reinforces `API-19`, `DOTNET-AI-08`).
   - Step 11: new prompt-injection defense item (reinforces `DOTNET-AI-05`, `API-16`); new MCP server implementation item exposing read-only operations (extends `DOTNET-AI-05`).
   - Step 12: new token usage and cost-budgeting item (overlaps `DOTNET-AI-09`, `AI-20`); new production-operations item covering response caching, guardrails and moderation, and Azure AI Foundry evaluation (reinforces `AI-20`).
+  - Step 09: optional spec-driven development item (extends `AI-17` method); optional git-worktree item for parallel agent sessions (supports `AI-17`).
+  - Step 10: optional AI-as-code-reviewer item (extends `AI-16` method); optional combined coding-model and CLI-agent comparison item (extends `AI-19` method).
   - Steps 08 and 09 intentionally carry nine study items (above the 4-8 preference) to absorb these supporting items without new outcome IDs.
 
 ## Coverage Summary
