@@ -15,6 +15,7 @@ Make the application dependable through background processing, test automation, 
 ### General AI
 
 1. [ ] Use GitHub Copilot in Visual Studio for codebase questions, edits, refactoring, tests, local-change review, and agent tasks, then compare the same bounded task and checks with VS Code ([Agent Mode in Visual Studio](https://www.youtube.com/watch?v=7_duh0HoT9o), [Copilot Chat in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-chat?view=vs-2022), [Visual Studio custom agents](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-specialized-agents?view=visualstudio), [Manage chat and Git context](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-chat-context-references?view=vs-2022), [Build with agents in VS Code](https://code.visualstudio.com/docs/agents/overview), [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices))
+2. [ ] Connect the coding agent to a browser-automation MCP server such as Playwright MCP or chrome-devtools MCP, use it to drive and verify one browser test of the portfolio application, and record what tool-grounded automation improved over prompting alone ([Playwright MCP](https://github.com/microsoft/playwright-mcp), [VS Code: MCP servers](https://code.visualstudio.com/docs/agent-customization/mcp-servers), [VS Code: Browser tools](https://code.visualstudio.com/docs/agents/run/browser-tools))
 
 ### ASP.NET Core
 
