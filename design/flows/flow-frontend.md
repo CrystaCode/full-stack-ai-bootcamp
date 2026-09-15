@@ -20,6 +20,6 @@ The steps below outline the complete learning path structured directly around th
 
 1. [ ] HTML Basics and Semantic Markup ([W3Schools HTML](https://www.w3schools.com/html/default.asp))
 2. [ ] CSS Basics: Selectors, Properties and the Box Model ([W3Schools CSS](https://www.w3schools.com/css/default.asp), [CSS Reference](https://cssreference.io/))
-3. [ ] Layout with Flexbox and Grid ([CSS Reference](https://cssreference.io/), [How To Make Websites Using HTML & CSS @ 00:00](https://www.youtube.com/watch?v=PgAZ8KzfhO8))
+3. [ ] Select and build layouts with Flexbox and Grid ([Flexbox Reference](https://cssreference.io/flexbox/), [Grid Reference](https://cssreference.io/css-grid/), [MDN: Grid Compared with Other Layout Methods](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods))
 4. [ ] Positioning, Transitions and Animations ([CSS Reference](https://cssreference.io/))
-5. [ ] Responsive Web Design ([Responsive Web Design @ 00:00](https://www.youtube.com/watch?v=zF6VSky4SIc))
+5. [ ] Responsive Web Design ([Responsive Web Design @ 00:00](https://www.youtube.com/watch?v=zF6VSky4SIc), [MDN: Responsive Design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design))

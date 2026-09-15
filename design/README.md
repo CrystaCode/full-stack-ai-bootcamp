@@ -17,11 +17,11 @@ A flow is a self-contained learning path for one track. Every flow document foll
 
 Current flows:
 
-- [General AI](flows/flow-ai-general.md) — AI literacy for learning, research, content, and development
-- [ASP.NET Core](flows/flow-dotnet-aspnetcore.md) — server-side web development with C# and .NET
-- [Blazor](flows/flow-dotnet-blazor.md) — interactive web UI with .NET
-- [.NET and AI](flows/flow-dotnet-ai.md) — building AI-powered features in C#
-- [Frontend](flows/flow-frontend.md) — HTML and CSS as the presentation layer
+- [General AI](flows/flow-ai-general.md): AI literacy for learning, research, content, and development
+- [ASP.NET Core](flows/flow-dotnet-aspnetcore.md): server-side web development with C# and .NET
+- [Blazor](flows/flow-dotnet-blazor.md): interactive web UI with .NET
+- [.NET and AI](flows/flow-dotnet-ai.md): building AI-powered features in C#
+- [Frontend](flows/flow-frontend.md): HTML and CSS as the presentation layer
 
 ## Conventions
 

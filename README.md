@@ -10,7 +10,7 @@ The curriculum covers a range of topics, including:
   - [ASP.NET Core](design/flows/flow-dotnet-aspnetcore.md)
   - [Blazor](design/flows/flow-dotnet-blazor.md)
   - [AI, MEAI, MAF](design/flows/flow-dotnet-ai.md)
-- [Frontend Development (HTML, CSS, TypeScript)](design/flows/flow-frontend.md)
+- [Frontend Development (HTML and CSS)](design/flows/flow-frontend.md)
 
 # Repo Structure
 The repository is structured to provide a clear and organized learning path for participants. It includes:
