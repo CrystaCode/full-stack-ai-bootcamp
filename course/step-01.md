@@ -14,7 +14,7 @@ Establish a shared understanding of generative AI while creating the first backe
 ### General AI
 
 1. [ ] Explain generative AI, common model types, capabilities, limitations, useful applications, and decisions that should remain human-controlled ([Generative AI in a Nutshell](https://www.youtube.com/watch?v=2IK3DFHRFfw))
-2. [ ] Explain in plain language how a large language model generates a response and why that response can be wrong ([Large Language Models](https://www.youtube.com/watch?v=osKyvYJ3PRM), [LLM Deep Dive](https://www.youtube.com/watch?v=7xTGNNLPyMI))
+2. [ ] Explain in plain language how a large language model generates a response and why that response can be wrong ([Large Language Models](https://www.youtube.com/watch?v=osKyvYJ3PRM), [Next-Token Prediction @ 00:14:27](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=867s), [Inference @ 00:26:01](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=1561s))
 3. [ ] Explain how hallucinations can produce fluent but false or unsupported answers, verify a model answer against a known fact or inspectable source, and explain why a person remains responsible for using the result ([Hallucinations @ 01:20:44](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=4844s), [Testing Known Answers @ 01:26:09](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=5169s), [Human Responsibility @ 03:09:21](https://www.youtube.com/watch?v=7xTGNNLPyMI&t=11361s))
 
 ### ASP.NET Core
